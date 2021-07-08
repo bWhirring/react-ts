@@ -1,9 +1,6 @@
-import { combineReducers } from 'redux'
-import { configData, baseConfigData } from './configReducers'
-import { currentLayerData } from "./currentLayerReducer";
+import { combineReducers } from "redux";
+import { DragData } from "./DragReducers";
 
 export default combineReducers({
-  configData,
-  baseConfigData,
-  currentLayerData,
-})
+  DragData,
+});

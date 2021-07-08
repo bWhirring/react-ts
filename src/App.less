@@ -7,3 +7,22 @@
     font-size: 12px !important;
   }
 }
+
+.header {
+  border-bottom: 1px solid #ccc;
+}
+
+.container {
+  height: calc(~"100vh - 134px");
+  box-sizing: border-box;
+  background-color: #edeef0;
+
+  :global {
+    .ant-row {
+      height: 100%;
+    }
+    .ant-col-6 {
+      background-color: #fff;
+    }
+  }
+}
